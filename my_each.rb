@@ -3,4 +3,5 @@ def my_each(arg) # put argument(s) here
   while counter < arg
     yield arg(counter)
     counter += 1
+  end
 end
